@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Data from '../../Data'
+import Data from '../Data'
 import Card from 'react-bootstrap/Card';
 import Link from 'next/link';
 

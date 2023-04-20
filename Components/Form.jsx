@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import {db}from '../firebaseConfig'
 import 'firebase/firestore';
-import { QuerySnapshot, addDoc,collection, onSnapshot, query } from 'firebase/firestore'
-import { useStore } from 'zustand';
+import {  addDoc,collection } from 'firebase/firestore'
 
 
 function Form({ninja}) {

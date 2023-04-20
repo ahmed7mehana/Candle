@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Data from '../../../Data';
+import Data from '../../Data';
 import { Button } from 'react-bootstrap';
 import Buy from '@/Components/Buy';
 

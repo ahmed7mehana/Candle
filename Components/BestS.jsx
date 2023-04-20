@@ -1,6 +1,4 @@
 import React from 'react'
-import Data from '../Data'
-import Link from 'next/link'
 import Cate from './Cate'
 function BestS() {
   return (

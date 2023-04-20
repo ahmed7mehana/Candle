@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import Data from '../../Data'
+import Data from '../Data'
 import Card from 'react-bootstrap/Card';
 import Link from 'next/link';
 
-function Candy() {
+function Movies() {
   const[itemid,setitemid]=useState("")
   console.log(itemid)
   return (
     <div  className='bg-[#eee]   mt-[100px] mb-[100px] p-2'>
-    <h2  className=' font-[Yesteryear] text-[40px]   text-center  border-b-2 border-black w-fit m-auto '>Basic Candles</h2>
+    <h2  className=' font-[Yesteryear] text-[40px]   text-center  border-b-2 border-black w-fit m-auto '>Movies Candles</h2>
     <div className='flex flex-wrap justify-center mt-10 '>
     {Data.map((item)=>(
       <div key={item.id} className='m-5 hover:scale-[1.06] duration-500'>
@@ -36,4 +36,4 @@ function Candy() {
   )
 }
 
-export default Candy
+export default Movies
