@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <div>
     <Navba/>
     <Component {...pageProps} />
-<Footer/>
+    <Footer/>
     
     </div>
   )

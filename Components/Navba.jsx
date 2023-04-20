@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../public/img/logo.jpeg'
-
 const Navba = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
