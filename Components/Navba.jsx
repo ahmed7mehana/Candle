@@ -106,7 +106,75 @@ const Navba = () => {
 
       {/* Mobile Menu */}
       {/* Overlay */}
+      <div
+        className={
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+        }
+      >
+        {/* Side Drawer Menu */}
+        <div
+          className={
+            nav
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#eee] p-10 ease-in duration-500'
+              : 'fixed left-[-194%] top-0 p-10 ease-in duration-500'
+          }
+        >
+          <div>
+            <div className='flex w-full items-center justify-between'>
+<p></p>
+              <div
+                onClick={handleNav}
+                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:bg-white duration-500 hover:shadow-[#f78da7]'
+              >
+                <AiOutlineClose />
+              </div>
+            </div>
 
+          </div>
+          <div className='py-4 mt-10 flex flex-col'>
+            <ul className='uppercase'>
+              <Link href='/'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm  rounded hover:bg-[#f78da7] mt-5 duration-500 px-5 font-bold hover:text-white'>
+                  Home
+                </li>
+              </Link>
+              <Link href='/About'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm  rounded hover:bg-[#f78da7] mt-5 duration-500 px-5 font-bold hover:text-white'>
+                  About
+                </li>
+              </Link>
+ 
+              <Link href='/Courses'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm   rounded hover:bg-[#f78da7] mt-5 duration-500 px-5 font-bold  hover:text-white'>
+                  Courses
+                </li>
+              </Link>
+
+              <li className=' py-4 text-sm   rounded hover:bg-[#f78da7] mt-5 duration-500 px-5 font-bold  hover:text-white'>
+              <Link href='' onClick={()=>{setshow(!show)}}> admin</Link>
+    {show?(
+      <div className=' flex flex-col'> 
+    
+      <input type='text' placeholder='Passwork' className='p-2 rounded text-black' value={value}  onChange={(e)=>{setvalue(e.target.value)}} />
+      <button onClick={()=>{
+        if(value==="123456789"){
+          setshow2(!show2)
+        }
+      }} className='bg-black p-2 rounded text-[#f78da7]'>ok</button>
+    
+      {show2?"":(
+    
+        <Link href='/Dashboard' className='text-black p-2 rounded bg-[#f78da7]'  onClick={()=>{setshow(!show),setvalue(""),setshow2(!show2)}}> lets go</Link>
+      )}
+      </div>
+    ):""}
+            </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

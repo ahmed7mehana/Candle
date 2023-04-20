@@ -6,6 +6,10 @@ import BestS from '@/Components/BestS'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+//   <link rel="preconnect" href="https://fonts.googleapis.com" />
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+// <link href="https://fonts.googleapis.com/css2?family=Kristi&family=Satisfy&family=Yesteryear&display=swap" rel="stylesheet" />
+
 
   return (
 <div className=' bg-[#eee] '>
@@ -15,9 +19,6 @@ export default function Home() {
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" href="/img/logo.jpeg" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Kristi&family=Satisfy&family=Yesteryear&display=swap" rel="stylesheet" />
 
 </Head>
 <Main/>
