@@ -1,6 +1,6 @@
 import Footer from '@/Components/Footer'
 import Navba from '@/Components/Nav'
-import 'src/styles/globals.css'
+import '../styles/globals.css'
 import { ThemeProvider} from 'next-themes';
 
 export default function App({ Component, pageProps }) {
