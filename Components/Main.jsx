@@ -2,12 +2,10 @@ import React from "react";
 
 function Main() {
 
-
   return (
     <div className=' relative top-[50px] max-w-[1400px] h-full w-full m-auto     '>
 
     <img src='../img/svg__1_-removebg-preview.png' className='bg-[#eee]   w-full h-[60px]'/>
-
 
       <div
         className='w-full h-screen sm:h-[450px]  bg-center  bg-[#f78da7] text-center flex flex-col sm:flex-row justify-around items-center'>
@@ -23,5 +21,3 @@ function Main() {
 }
 
 export default Main;
-
-//tuesday_nightregular,sans-serif

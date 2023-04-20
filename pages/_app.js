@@ -1,17 +1,14 @@
 import Footer from '@/Components/Footer'
-import Navba from '@/Components/Nav'
+import Navba from '@/Components/Navba'
 import '../styles/globals.css'
-import { ThemeProvider} from 'next-themes';
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <div>
     <Navba/>
-    <ThemeProvider attribute='class' defaultTheme='light'>
     <Component {...pageProps} />
-    </ThemeProvider>
 <Footer/>
     
-    </>
+    </div>
   )
 }

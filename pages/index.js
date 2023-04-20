@@ -1,13 +1,7 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navba from '@/Components/Nav'
 import Main from '@/Components/Main'
 import Head from 'next/head'
 import BestS from '@/Components/BestS'
-import About from '@/Components/About'
-import Footer from '@/Components/Footer'
-import {BsFillShieldFill,BsArrowDownUp,BsTruck,BsCreditCard2Back,BsEmojiSunglasses ,BsEmojiKiss } from 'react-icons/bs';
-import Benfit from '@/Components/Benfit'
 
 const inter = Inter({ subsets: ['latin'] })
 

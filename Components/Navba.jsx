@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../public/img/logo.jpeg'
 
-const Navbar = () => {
+const Navba = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#eee');
@@ -179,4 +179,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navba;
