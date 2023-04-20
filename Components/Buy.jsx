@@ -1,10 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
-import { AiOutlineClose, AiOutlineMenu ,AiFillFacebook,AiOutlineYoutube} from 'react-icons/ai';
-import Data from '../Data'
-import itemid from'../pages/Details/[id]'
+import { AiOutlineClose} from 'react-icons/ai';
 import Form from '@/Components/Form';
-import { useStore } from 'zustand';
 
 function Buy({setShow,show,itemid,ninja}) {
 
