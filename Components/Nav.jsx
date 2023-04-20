@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMenu ,AiFillFacebook,AiOutlineYoutube} from 'react-icons/ai';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../public/img/logo.jpeg'
 
 const Navbar = () => {
