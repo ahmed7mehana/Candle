@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import React from 'react'
 
 function Footer() {
 
@@ -13,7 +14,7 @@ function Footer() {
  </div>
 
  <div className='w-[300px] p-3'>
- <h1 className='font-bold text-white uppercase text-[20px]  font-[Satisfy]'> Payment</h1>
+ <h1 className='font-bold !text-white uppercase text-[20px]  font-[Satisfy]'> Payment</h1>
   <div >
   <ul className=' text-sm mt-3'>
   <li className='mt-3 flex flex-row  hover:text-[#717fe0] duration-500  '>
@@ -66,7 +67,7 @@ function Footer() {
  
  </div>
  <div className='flex flex-col items-center'>    
- <p className=' text-sm mt-10 text-center  bg-white rounded p-1'> ©2023 All rights reserved | This template is made with love<Link href={"https://www.linkedin.com/in/ahmed-mehana-b39967240/"} className=' bg-[#f78da7] rounded font-bold p px-4 text-white font-[Satisfy] text-[18px] cursor-pointer'>by Ahmed-mehana </Link> </p>
+ <p className=' text-sm mt-10 text-center  !bg-white rounded p-1'> ©2023 All rights reserved | This template is made with love<Link href={"https://www.linkedin.com/in/ahmed-mehana-b39967240/"} className=' !bg-[#f78da7] rounded font-bold p px-4 !text-white font-[Satisfy] text-[18px] cursor-pointer'>by Ahmed-mehana </Link> </p>
  </div>
  </div>
  </div>
