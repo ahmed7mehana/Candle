@@ -1,12 +1,7 @@
 import React, { useState } from 'react'
-import { AiOutlineShopping , AiOutlineHeart,AiOutlineStar} from "react-icons/ai";
-
 import Data from '../../../Data';
-import Image from 'next/image';
 import { Button } from 'react-bootstrap';
 import Buy from '@/Components/Buy';
-import Form from '../../Components/Form';
-import Dashboard from '../Dashboard';
 
 export const getStaticPaths = async () => {
     const paths = Data.map(ninja => {

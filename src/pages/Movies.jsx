@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
-import Data from '../Data'
-import Button from 'react-bootstrap/Button';
+import Data from '../../Data'
 import Card from 'react-bootstrap/Card';
 import Link from 'next/link';
-import Buy from '@/Components/Buy';
 
 function Movies() {
   const[itemid,setitemid]=useState("")
